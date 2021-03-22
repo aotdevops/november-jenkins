@@ -7,7 +7,8 @@ node {
 				'vault', 
 				'elk', 
 				'gitlab',
-				'source_ami_filter'], 
+				'source_ami_filter'
+				'jenkins.json], 
 		description: 'What would you like to build? ', 
 		name: 'TOOL'), 
 			choice(choices: 
