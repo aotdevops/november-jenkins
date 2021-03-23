@@ -27,7 +27,7 @@ node {
 		timestamps {
 			ws {
 				echo "Slack"
-			checkout([$class: 'GitSCM', branches: [[name: 'master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/aotdevops/packer.git']]])
+			checkout([$class: 'GitSCM', branches: [[name: 'main']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/aotdevops/packer.git']]])
 		}
 	}
 }
